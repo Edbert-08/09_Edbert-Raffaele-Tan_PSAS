@@ -1,0 +1,132 @@
+<!-- =========================
+FILE: index.html (HOME PAGE)
+========================= -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroMart - Home</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1041/1041880.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ElectroMart</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="content.html">Produk</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Pendaftaran</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero text-center text-white d-flex align-items-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Selamat Datang di ElectroMart</h1>
+    <p class="lead">Website toko elektronik modern dan terpercaya</p>
+    <a href="content.html" class="btn btn-warning btn-lg mt-3">Lihat Produk</a>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<div id="carouselExample" class="carousel slide container mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner rounded shadow">
+
+    <div class="carousel-item active">
+      <img src="laptop.jpg" class="d-block w-100 carousel-img">
+    </div>
+
+    <div class="carousel-item">
+      <img src="headset.jpg" class="d-block w-100 carousel-img">
+    </div>
+
+    <div class="carousel-item">
+      <img src="handphone.jpg" class="d-block w-100 carousel-img">
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- CARD SECTION -->
+<section class="container mt-5 mb-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="ICON1.png" class="card-img-top p-4">
+        <div class="card-body">
+          <h5 class="card-title">Produk Berkualitas</h5>
+          <p class="card-text">
+            Menyediakan laptop, smartphone, headset, dan berbagai perangkat elektronik terbaik.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="ICON2.jpg" class="card-img-top p-4">
+        <div class="card-body">
+          <h5 class="card-title">Harga Terjangkau</h5>
+          <p class="card-text">
+            Harga kompetitif dengan kualitas premium dan garansi resmi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="ICON3.jpg" class="card-img-top p-4">
+        <div class="card-body">
+          <h5 class="card-title">Pelayanan Cepat</h5>
+          <p class="card-text">
+            Customer service responsif dan pengiriman cepat ke seluruh Indonesia.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+  @ Copyright Edbert Raffaele 2026
+</footer>
+
+
+</body>
+</html>
